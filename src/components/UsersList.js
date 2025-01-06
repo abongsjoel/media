@@ -16,10 +16,10 @@ function UsersList() {
   }, [dispatch]);
 
   return isLoading ? (
-    <Skeleton />
+    <Skeleton times={6} className="h-10 w-full" />
   ) : (
     <div>
-      <Skeleton />
+      <Skeleton times={60} className="h-5 w-full" />
     </div>
   );
 }
