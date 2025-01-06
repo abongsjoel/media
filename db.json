@@ -1,5 +1,24 @@
 {
-  "users": [],
-  "albums": [],
-  "photos": []
+  "users": [
+    {
+      "id": "3",
+      "name": "Hermione Faith"
+    },
+    {
+      "id": "f084",
+      "name": "Dallas Gerhold"
+    },
+    {
+      "id": "f7e2",
+      "name": "Ray Effertz"
+    },
+    {
+      "id": "1ec7",
+      "name": "Silvia Hagenes"
+    },
+    {
+      "id": "945b",
+      "name": "Natalie Bins"
+    }
+  ]
 }
