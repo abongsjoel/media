@@ -24,9 +24,9 @@ const usersSlice = createSlice({
       state.error = action.error;
     });
 
-    // builder.addCase(addUser.pending, (state, action) => {
-    //   state.isLoading = true;
-    // });
+    builder.addCase(addUser.pending, (state, action) => {
+      state.isLoading = true;
+    });
     builder.addCase(addUser.fulfilled, (state, action) => {
       state.isLoading = false;
       state.data.push(action.payload);

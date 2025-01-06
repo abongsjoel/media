@@ -1,54 +1,32 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Thierry"
+      "id": "1",
+      "name": "Thierry Boss"
     },
     {
-      "id": 2,
-      "name": "Michelle"
+      "id": "2",
+      "name": "Michelle Ngwenyu"
     },
     {
-      "id": 3,
-      "name": "Hermione"
+      "id": "3",
+      "name": "Hermione Faith"
     },
     {
-      "id": 4,
-      "name": "Sandra"
+      "id": "4",
+      "name": "Sandra Ngwe"
     },
     {
-      "id": "36b8",
-      "name": "Dr Smikes"
+      "id": "eb09",
+      "name": "Christy Hoppe"
     },
     {
-      "id": "d3e8",
-      "name": "Morris Hagenes Jr."
+      "id": "7cc0",
+      "name": "Cindy Homenick"
     },
     {
-      "id": "2cf0",
-      "name": "Marguerite Stokes"
-    },
-    {
-      "id": "6a73",
-      "name": "Ms. Courtney D'Amore"
-    },
-    {
-      "id": "1b06",
-      "name": "Elsie Weissnat"
-    },
-    {
-      "id": "483e",
-      "name": "Paula Beahan"
-    },
-    {
-      "id": "1ab7",
-      "name": "Carla Lueilwitz"
-    },
-    {
-      "id": "ad64",
-      "name": "Willis Yost V"
+      "id": "d48d",
+      "name": "Cheryl Stoltenberg"
     }
-  ],
-  "albums": [],
-  "photos": []
+  ]
 }
