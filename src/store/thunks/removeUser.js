@@ -7,7 +7,7 @@ const removeUser = createAsyncThunk("user/remove", async (user) => {
 
   await pause(1000);
 
-  return response.data;
+  return user;
 });
 
 export { removeUser };
