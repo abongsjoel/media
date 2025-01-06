@@ -17,25 +17,27 @@ function UsersList() {
     doCreateUser();
   };
 
-  const renderedUsers = data.map((user) => (
-    <div key={user.id} className="mb-2 border rounded">
-      <div className="flex p-2 justify-between items-center cursor-pointer">
-        {user.name}
+  const content = isLoadingUsers ? (
+    <Skeleton times={6} className="h-10 w-full" />
+  ) : loadingUsersError ? (
+    <div>Error Fetching Data...</div>
+  ) : (
+    data.map((user) => (
+      <div key={user.id} className="mb-2 border rounded">
+        <div className="flex p-2 justify-between items-center cursor-pointer">
+          {user.name}
+        </div>
       </div>
-    </div>
-  ));
+    ))
+  );
 
   useEffect(() => {
     doFetchUsers();
   }, [doFetchUsers]);
 
-  return isLoadingUsers ? (
-    <Skeleton times={6} className="h-10 w-full" />
-  ) : loadingUsersError ? (
-    <p>Error Fetching Data...</p>
-  ) : (
+  return (
     <div>
-      <div className="flex flex-row justify-between m-3">
+      <div className="flex flex-row justify-between items-center m-3">
         <h1 className="m-2 text-xl">Users</h1>
 
         <Button loading={isCreatingUsers} onClick={handleAddUser}>
@@ -44,7 +46,7 @@ function UsersList() {
 
         {creatingUsersError && "Error Creating User"}
       </div>
-      {renderedUsers}
+      {content}
     </div>
   );
 }
