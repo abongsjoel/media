@@ -19,7 +19,6 @@ const photsApi = createApi({
           { type: "Photo", id: photo.id },
         ],
         query: (photo) => {
-          console.log({ photo });
           return {
             url: `/photos/${photo.id}`,
             method: "DELETE",

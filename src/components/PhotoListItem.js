@@ -4,7 +4,6 @@ import { useRemovePhotoMutation } from "../store";
 
 export default function PhotoListItem({ photo }) {
   const [removePhoto, removePhotoResults] = useRemovePhotoMutation();
-  console.log({ removePhotoResults });
 
   const handleRemovePhoto = () => {
     removePhoto(photo);
