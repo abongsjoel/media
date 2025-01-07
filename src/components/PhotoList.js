@@ -5,6 +5,7 @@ import Skeleton from "./Skeleton";
 
 function PhotoList({ album }) {
   const { data, error, isFetching } = useFetchPhotosQuery(album);
+  console.log({ data, error, isFetching });
 
   const [addPhoto, addPhotoResults] = useAddPhotoMutation();
   console.log({ addPhotoResults });
