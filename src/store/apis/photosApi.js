@@ -16,6 +16,7 @@ const photsApi = createApi({
     return {
       removePhoto: builder.mutation({
         query: (photo) => {
+          console.log({ photo });
           return {
             url: `/photos/${photo.id}`,
             method: "DELETE",
