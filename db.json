@@ -19,11 +19,6 @@
   ],
   "albums": [
     {
-      "id": "9526",
-      "userId": "null",
-      "title": "Awesome Soft Towels"
-    },
-    {
       "id": "a59a",
       "userId": "0402",
       "title": "Incredible Fresh Sausages"
@@ -57,6 +52,13 @@
       "id": "beec",
       "userId": "3",
       "title": "Sleek Rubber Pizza"
+    }
+  ],
+  "photos": [
+    {
+      "id": "1",
+      "albumId": "8726",
+      "title": "Nice little Album"
     }
   ]
 }
