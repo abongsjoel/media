@@ -20,5 +20,12 @@
       "id": "0402",
       "name": "Nichole Koss"
     }
+  ],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Limbe Trip",
+      "userId": "f084"
+    }
   ]
 }
