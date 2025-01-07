@@ -5,20 +5,58 @@
       "name": "Hermione Faith"
     },
     {
-      "id": "f084",
-      "name": "Dallas Gerhold"
-    },
-    {
-      "id": "f7e2",
-      "name": "Ray Effertz"
-    },
-    {
-      "id": "1ec7",
-      "name": "Silvia Hagenes"
-    },
-    {
       "id": "945b",
       "name": "Natalie Bins"
+    },
+    {
+      "id": "0402",
+      "name": "Nichole Koss"
+    },
+    {
+      "id": "0a95",
+      "name": "Pam Glover"
+    }
+  ],
+  "albums": [
+    {
+      "id": "9526",
+      "userId": "null",
+      "title": "Awesome Soft Towels"
+    },
+    {
+      "id": "a59a",
+      "userId": "0402",
+      "title": "Incredible Fresh Sausages"
+    },
+    {
+      "id": "7306",
+      "userId": "0402",
+      "title": "Refined Rubber Chair"
+    },
+    {
+      "id": "7298",
+      "userId": "945b",
+      "title": "Ergonomic Wooden Towels"
+    },
+    {
+      "id": "189e",
+      "userId": "945b",
+      "title": "Bespoke Plastic Pants"
+    },
+    {
+      "id": "8726",
+      "userId": "3",
+      "title": "Fantastic Rubber Salad"
+    },
+    {
+      "id": "9922",
+      "userId": "3",
+      "title": "Intelligent Cotton Ball"
+    },
+    {
+      "id": "beec",
+      "userId": "3",
+      "title": "Sleek Rubber Pizza"
     }
   ]
 }
