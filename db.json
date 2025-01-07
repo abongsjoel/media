@@ -19,29 +19,44 @@
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Limbe Trip",
-      "userId": "3"
-    },
-    {
-      "id": "aa3e",
-      "userId": "3",
-      "title": "Practical Frozen Towels"
-    },
-    {
-      "id": "7a97",
-      "userId": "945b",
-      "title": "Licensed Fresh Chicken"
-    },
-    {
       "id": "9526",
       "userId": "null",
       "title": "Awesome Soft Towels"
     },
     {
-      "id": "e69b",
+      "id": "a59a",
+      "userId": "0402",
+      "title": "Incredible Fresh Sausages"
+    },
+    {
+      "id": "7306",
+      "userId": "0402",
+      "title": "Refined Rubber Chair"
+    },
+    {
+      "id": "7298",
+      "userId": "945b",
+      "title": "Ergonomic Wooden Towels"
+    },
+    {
+      "id": "189e",
+      "userId": "945b",
+      "title": "Bespoke Plastic Pants"
+    },
+    {
+      "id": "8726",
       "userId": "3",
-      "title": "Electronic Steel Cheese"
+      "title": "Fantastic Rubber Salad"
+    },
+    {
+      "id": "9922",
+      "userId": "3",
+      "title": "Intelligent Cotton Ball"
+    },
+    {
+      "id": "beec",
+      "userId": "3",
+      "title": "Sleek Rubber Pizza"
     }
   ]
 }
