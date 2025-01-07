@@ -5,97 +5,43 @@
       "name": "Hermione Faith"
     },
     {
-      "id": "f084",
-      "name": "Dallas Gerhold"
-    },
-    {
-      "id": "f7e2",
-      "name": "Ray Effertz"
-    },
-    {
       "id": "945b",
       "name": "Natalie Bins"
     },
     {
       "id": "0402",
       "name": "Nichole Koss"
+    },
+    {
+      "id": "0a95",
+      "name": "Pam Glover"
     }
   ],
   "albums": [
     {
       "id": 10,
       "title": "Limbe Trip",
-      "userId": "f084"
+      "userId": "3"
     },
     {
-      "id": "73ad",
-      "userId": "f084",
-      "title": "Practical Granite Chicken"
-    },
-    {
-      "id": "09ce",
-      "userId": "f084",
-      "title": "Luxurious Wooden Shoes"
-    },
-    {
-      "id": "9dae",
-      "userId": "f084",
-      "title": "Small Fresh Computer"
-    },
-    {
-      "id": "3a95",
-      "userId": "f084",
-      "title": "Practical Plastic Fish"
-    },
-    {
-      "id": "4d2b",
-      "userId": "f084",
-      "title": "Modern Cotton Chair"
-    },
-    {
-      "id": "538c",
+      "id": "aa3e",
       "userId": "3",
-      "title": "Gorgeous Fresh Shirt"
+      "title": "Practical Frozen Towels"
     },
     {
-      "id": "b123",
+      "id": "7a97",
+      "userId": "945b",
+      "title": "Licensed Fresh Chicken"
+    },
+    {
+      "id": "9526",
+      "userId": "null",
+      "title": "Awesome Soft Towels"
+    },
+    {
+      "id": "e69b",
       "userId": "3",
-      "title": "Refined Soft Table"
-    },
-    {
-      "id": "c759",
-      "userId": "f7e2",
-      "title": "Handmade Wooden Soap"
-    },
-    {
-      "id": "97e8",
-      "userId": "f084",
-      "title": "Awesome Soft Sausages"
-    },
-    {
-      "id": "338a",
-      "userId": "f7e2",
-      "title": "Licensed Bronze Chips"
-    },
-    {
-      "id": "3a31",
-      "userId": "3",
-      "title": "Oriental Rubber Pizza"
-    },
-    {
-      "id": "ec22",
-      "userId": "3",
-      "title": "Small Plastic Chair"
-    },
-    {
-      "id": "7ebd",
-      "userId": "3",
-      "title": "Rustic Fresh Keyboard"
-    },
-    {
-      "id": "acd6",
-      "userId": "3",
-      "title": "Generic Plastic Salad"
+      "title": "Electronic Steel Cheese"
     }
   ]
 }
