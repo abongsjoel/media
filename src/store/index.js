@@ -31,7 +31,7 @@ export {
 } from "./apis/albumsApi";
 export {
   useFetchPhotosQuery,
-  useAddPhotosMutation,
+  useAddPhotoMutation,
   useRemovePhotoMutation,
 } from "./apis/photosApi";
 

@@ -22,14 +22,14 @@ const photsApi = createApi({
           };
         },
       }),
-      addPhotos: builder.mutation({
+      addPhoto: builder.mutation({
         query: (album) => {
           return {
-            url: "photos",
+            url: "/photos",
             method: "POST",
             body: {
               albumId: album.id,
-              title: faker.commerce.productName(),
+              url: faker.image.abstract(150, 150, true),
             },
           };
         },
@@ -37,7 +37,7 @@ const photsApi = createApi({
       fetchPhotos: builder.query({
         query: (album) => {
           return {
-            url: "photos",
+            url: "/photos",
             params: {
               albumId: album.id,
             },
@@ -51,7 +51,7 @@ const photsApi = createApi({
 
 export const {
   useFetchPhotosQuery,
-  useAddPhotosMutation,
+  useAddPhotoMutation,
   useRemovePhotoMutation,
 } = photsApi;
 export { photsApi };
