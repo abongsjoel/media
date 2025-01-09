@@ -19,11 +19,6 @@
   ],
   "albums": [
     {
-      "id": "9526",
-      "userId": "null",
-      "title": "Awesome Soft Towels"
-    },
-    {
       "id": "a59a",
       "userId": "0402",
       "title": "Incredible Fresh Sausages"
@@ -57,6 +52,28 @@
       "id": "beec",
       "userId": "3",
       "title": "Sleek Rubber Pizza"
+    }
+  ],
+  "photos": [
+    {
+      "id": "f1ff",
+      "albumId": "8726",
+      "url": "https://loremflickr.com/150/150/abstract?lock=51260"
+    },
+    {
+      "id": "6ee2",
+      "albumId": "8726",
+      "url": "https://loremflickr.com/150/150/abstract?lock=70375"
+    },
+    {
+      "id": "8115",
+      "albumId": "8726",
+      "url": "https://loremflickr.com/150/150/abstract?lock=70377"
+    },
+    {
+      "id": "3e34",
+      "albumId": "a59a",
+      "url": "https://loremflickr.com/150/150/abstract?lock=39786"
     }
   ]
 }
