@@ -1,7 +1,5 @@
 # media
 
-# List of Cars
-
 > This is a simple project i worked on while re-learning Redux using the Redux Toolkit (RTK) Query.
 
 User can add or delete users, add/delete albums for users and add/delete photos for albums
