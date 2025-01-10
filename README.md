@@ -13,7 +13,7 @@ User can add or delete users, add/delete albums for users and add/delete photos 
 - JavaScript
 - Tailwindcss
 
-## Authors
+## Author
 
 👤 **Chi A. Joel**
 
