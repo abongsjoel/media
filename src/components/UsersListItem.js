@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { GoTrashcan } from "react-icons/go";
 
 import useThunk from "../hooks/use-thunk";
@@ -11,10 +10,7 @@ function UsersListItem({ user }) {
   const [doRemoveUser, isRemovingUsers, removingUsersError] =
     useThunk(removeUser);
 
-  const [clickedUser, setClickedUser] = useState(null);
-
   const handleRemoveUser = (user) => {
-    setClickedUser(user.id);
     doRemoveUser(user);
   };
 
@@ -22,7 +18,7 @@ function UsersListItem({ user }) {
     <>
       <Button
         className="mr-3"
-        loading={user.id === clickedUser && isRemovingUsers}
+        loading={isRemovingUsers}
         onClick={() => handleRemoveUser(user)}
       >
         <GoTrashcan />
